@@ -18,14 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity
-            android:name=".ui.StoryActivity"
-            android:label="@string/title_activity_story"
+        <activity android:name=".ui.StoryActivity"
+            android:label="StoryActivity"
             android:parentActivityName=".ui.MainActivity"
-            android:theme="@style/AppTheme">
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.MainActivity"/>
+                android:value="com.teamtreehouse.interactivestory.ui.MainActivity">
+            </meta-data>
+
         </activity>
     </application>
 
