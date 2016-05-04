@@ -10,4 +10,27 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="StoryChoice1Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:nestedScrollingEnabled">true</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">#3a8aec</item>
+        <item name="android:layout_above">@+id/choiceButton2</item>
+
+    </style>
+
+    <style name="StoryChoice2Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">#3a8aec</item>
+    </style>
+
 </resources>
